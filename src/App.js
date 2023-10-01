@@ -10,6 +10,7 @@ function App() {
         <Route path="/" Component={Login} />
         <Route path="/mentors" Component={Mentors} />
         <Route path="/mentees" Component={Mentees} />
+        <Route path="*" Component={Login} />
       </Routes>
     </Router>
   );
