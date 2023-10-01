@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+    /* Login Page Left Side  */
+    .bgGradient {
+        background: linear-gradient(166deg, #7E5AF3 10.18%, #000 99.96%, #C66697 100.27%, rgba(116, 87, 210, 0.00) 103.88%);
+    }
+
+    .cardGradient {
+        background: linear-gradient(117deg, rgba(255, 255, 255, 0.38) 11.68%, rgba(255, 255, 255, 0.10) 77.34%);
+        ;
+    }
+
+    .circle-gradient {
+        @apply w-[257px] h-[262px] z-0 absolute bg-gradient-to-r from-pink-500 to-indigo-500 rounded-full blur-[90px]
+    }
+
+}
